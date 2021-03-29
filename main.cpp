@@ -28,14 +28,14 @@ int main() {
 
 
 
-// Тест  Round_Bush_Map
+	// Тест  Round_Bush_Map
 #ifdef DEBAG_
 
 	Round_Bush_Map round_bush_map(10, 2);
 	cout << "=============\n";
 
 	for (size_t i = 0; i < ln; i++) {
-		round_bush_map.insert(test_array[i],111, test_array[i]);
+		round_bush_map.insert(test_array[i], 111, test_array[i]);
 		cout << test_array[i] << ", ";
 	}
 	cout << "\n=============";
@@ -59,7 +59,7 @@ int main() {
 
 
 
-// Тест сортировки Round_Bush_Vector
+	// Тест сортировки Round_Bush_Vector
 #ifdef DEBAG
 
 	Round_Bush_Vector round_bush_vector(10, 2);
@@ -89,7 +89,7 @@ int main() {
 #endif
 
 
-// Тест сортировки Round_Bush_Set
+	// Тест сортировки Round_Bush_Set
 #ifdef DEBAG_
 
 	Round_Bush_Set round_bush_set(10, 2);
@@ -99,7 +99,7 @@ int main() {
 	for (size_t i = 0; i < ln; i++) {
 		round_bush_set.insert(test_array[i], test_array[i]);
 		cout << test_array[i] << ", ";
-}
+	}
 	cout << "\n=============";
 
 	round_bush_set.print_debag();
@@ -121,7 +121,7 @@ int main() {
 
 
 
-// Тест обращения по индексоу у Round_Bush_Vector
+	// Тест обращения по индексу у Round_Bush_Vector
 #ifdef DEBAG_
 	round_bush_vector.print_debag();
 
@@ -136,7 +136,7 @@ int main() {
 #endif
 
 
-// Тест сравнение std::vector с Round_Bush.Vector_RoundB в работе вставки поиска удаления эелемента типа int
+	// Тест сравнение std::vector с Round_Bush.Vector_RoundB в работе вставки поиска удаления элемента типа int
 #ifdef DEBAG_
 
 
@@ -216,7 +216,7 @@ int main() {
 #endif
 
 
-// Тест Записи типа int в Vector_RoundB
+	// Тест Записи типа int в Vector_RoundB
 #ifdef DEBAG_
 	Round_Bush round_bush_vector(6, 2);
 
@@ -230,7 +230,7 @@ int main() {
 #endif
 
 
-// Тест Записи типа float
+	// Тест Записи типа float
 #ifdef DEBAG_
 	float fl_array[7] = { 5.123,12.123,3232.232,7231.232,2212.23,887.56,434.34 };
 
@@ -246,9 +246,9 @@ int main() {
 #endif
 
 
-// Тест Записи типа string
+	// Тест Записи типа string
 #ifdef DEBAG_
-	string input_string = { "В лесу радилась елочка в лису она росла, зимой Зелёная была." };
+	string input_string = { "В лесу родилась елочка в лису она росла, зимой Зелёная была." };
 
 	Round_Bush round_bush_set(6, 2);
 
@@ -271,7 +271,7 @@ int main() {
 #endif
 
 
-// Тест отображения информации
+	// Тест отображения информации
 #ifdef DEBAG_
 
 	Round_Bush_Set round_bush_set(10, 2);
@@ -294,9 +294,9 @@ int main() {
 #endif
 
 
-// Тест сравнение multiset с Round_Bush_Set в работе вставки поиска удаления эелемента типа int
+	// Тест сравнение multiset с Round_Bush_Set в работе вставки поиска удаления элемента типа int
 #ifdef DEBAG_
-	
+
 
 
 
